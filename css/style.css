@@ -8,21 +8,30 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    justify-content: center;
+
 }
 .container-grid{
     width: 500px;
     height: 500px;
     border: 2px solid black;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 .container-grid .square{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     float: left;
+}
+.easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.normal{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+.hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 .square .number{
